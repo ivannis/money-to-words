@@ -1,0 +1,15 @@
+version: '3.2'
+
+services:
+  converter:
+    container_name: money-converter
+    command: php -S 127.0.0.1:13300
+    build:
+      context: .
+    image: money-converter:dev
+    networks:
+      - default
+
+networks:
+  default:
+    external: false
