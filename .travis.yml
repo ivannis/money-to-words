@@ -1,4 +1,4 @@
-dist: precise
+dist: bionic
 language: php
 
 php:
@@ -10,7 +10,6 @@ cache:
 
 before_script:
   - composer self-update
-  - composer global require hirak/prestissimo
   - composer install --no-interaction
 
 script:
