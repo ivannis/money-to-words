@@ -1,5 +1,7 @@
 # Introduction
 
+[![Build Status](https://travis-ci.org/ivannis/money-to-words.svg?branch=master)](https://travis-ci.org/ivannis/money-to-words)
+
 Write a function which returns a dollar value written out in English words.
 
 The function should handle all values from 0 to 1000, up to two decimal places. If there is any
